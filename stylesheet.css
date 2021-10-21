@@ -1,0 +1,29 @@
+h1 {
+    margin: 10px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: large;
+    background-color: cadetblue;
+}
+ul { 
+    margin: 5px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+ul li {
+    margin: 5px;
+    padding: 5px;
+    background-color:blueviolet;
+}
+ul li:hover {
+    background:blue;
+}
+ul li.checked {
+    background:black;
+    text-decoration: line-through;
+}
+
+.addBtn {
+    padding: 5px;
+    background-color: bisque;
+}

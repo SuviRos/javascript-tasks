@@ -3,10 +3,19 @@
     <head>
             <title>To-do list project</title>
             <meta charset="utf-8">
-            //stylesheet tähän
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+            <script type="text/javascript" src="javascript.js"></script>
+            
     </head>
     <body>
+        
+    <div class="header">
         <h1>To do!</h1>
+        <input type="text" id="addtext" placeholder="Text here">
+        <input id ="addBtn" onclick ="newElement();" type="button" value="add">
+    </div>
+
         <ul id="lista">
             <li>1</li>
             <li>2</li>
@@ -14,5 +23,6 @@
             <li>4</li>
             <li>5</li>
         </ul>
+
     </body>
 </html>            
